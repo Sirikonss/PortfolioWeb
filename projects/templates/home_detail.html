@@ -1,0 +1,214 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-sm-3 col-3" id="myScrollspy">
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#profile" style="margin-top: 4rem;">Personal Profile </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#activities">Activities</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="col-sm-9 col-9">
+                <div id="profile">
+                    <h5>HEY THERE!</h5>
+                    <h1>Sirikon SONGSAENGTHONG</h1>
+                    <h4>Software Engineering Student</h4>
+                    <h5 id="aboutme">About me</h5>
+                    <p>I am a junior student at Kasetsart University
+                        studying Software and Knowledge engineering.
+                        I am looking for an internship to obtain a
+                        challenging position in a firm that allows me to
+                        apply my experiences and skills in an intellectually
+                        stimulating capacity whereby, I may encourage
+                        the growth of both the firm and myself.</p>
+                    <h5 id="education-h">Education</h5>
+                    <ul>
+                        <li>2012 - 2018</li>
+                        <a id="education">Satriwitthaya School, Bangkok, THAILAND</a>
+                        <p id="education">High School Certificate equivalent </p>
+                        <p id="education"> - GPA: 3.52</p>
+                        <li id="university">2018 - NOW</li>
+                        <a id="education">Kasetsart University, Bangkok, THAILAND</a>
+                        <p id="education">Bachelor of Engineering Program in Software and Knowledge Engineering
+                            (International Program) </p>
+                        <p id="education"> - GPA: 3.52</p>
+                    </ul>
+                </div>
+                <div id="skills">
+                    <h1>Skills</h1>
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        Professional Skills
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Python
+                                            <span class="badge badge-primary badge-pill">Intermediate</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Java
+                                            <span class="badge badge-warning badge-pill">Basic</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            C++
+                                            <span class="badge badge-warning badge-pill">Basic</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            HTML
+                                            <span class="badge badge-success badge-pill">Advanced</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            CSS
+                                            <span class="badge badge-success badge-pill">Advanced</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            JavaScript
+                                            <span class="badge badge-primary badge-pill">Intermediate</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Boostrap
+                                            <span class="badge badge-success badge-pill">Advanced</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Docker
+                                            <span class="badge badge-primary badge-pill">Intermediate</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            MySQL
+                                            <span class="badge badge-primary badge-pill">Intermediate</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            React
+                                            <span class="badge badge-primary badge-pill">Intermediate</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Django
+                                            <span class="badge badge-primary badge-pill">Intermediate</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Personal Skills
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Communication
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Organisation
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Time-keeping
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Teamwork
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Adaptability
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Languages
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Thai
+                                            <span class="badge badge-success badge-pill">Native</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            English
+                                            <span class="badge badge-primary badge-pill">Upper-Intermediate</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Chinese
+                                            <span class="badge badge-warning badge-pill">Basic</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="activities">
+                    <h1>Activities</h1>
+                    <div class="card">
+                        <h5 class="card-header">Experiences</h5>
+                        <div class="card-body">
+                            <ul>
+                                <li>Participate in SOS7th</li>
+                                <li>Participate in EXCEED CAMP 16th</li>
+                                <li>Being staff in SOS8th</li>
+                                <li>One of the developer team for TEDxKaset2019</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5 class="card-header">Hobbies</h5>
+                        <div class="card-body">
+                            <ul>
+                                <li>Reading the books</li>
+                                <li>Listening the musics</li>
+                                <li>Watching movies</li>
+                                <li>Taking photos [ Instagram: @snewbiesnap ]</li>
+                                <li>Studying Languages</li>
+                            
+
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+{% endblock %}

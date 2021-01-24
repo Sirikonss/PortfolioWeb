@@ -1,0 +1,16 @@
+body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.project-head{
+    margin-top: 2rem;
+    height: 15vh;
+    color:  #2e4583;
+}
+
+.project-head p{
+    color:  #8c9099;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}

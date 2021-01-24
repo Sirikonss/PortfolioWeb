@@ -1,0 +1,94 @@
+body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+  }
+  ul.nav-pills {
+    top: 20px;
+    position: fixed;
+  }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #F64668;
+}
+.nav-item a{
+    color: #F64668;
+  }
+  div.col-9 div {
+    
+    background-color: white !important;
+    /* height: 100vh; */
+  }
+
+.nav-link active{
+    margin-top: 3rem ; 
+}
+
+#profile{
+    padding-top: 3rem;
+    height: 100vh;
+    padding: 2rem;
+}
+
+#profile h1{
+    color: #41436A;
+}
+#profile h4, h5{
+    color: #984063;
+}
+#aboutme{
+    color: #41436A;
+    padding-top: 2rem;
+    margin-bottom: 0px;
+}
+#profile p{
+    padding-top: 0.5rem;
+    color: black;
+}
+#education{
+    color: #41436A;
+    padding-top: 2rem;
+    margin-bottom: 0px;
+}
+#education-h{
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+#university{
+    padding-top: 1.5rem;
+}
+
+#skills{
+    padding: 2rem;
+    height: 130vh;
+}
+
+#skills h1{
+    color: #4F8FC0;
+
+}
+#accordion {
+    padding-top: 2rem;
+}
+/* .card-group{
+    height: 10vh !important;
+} */
+
+.btn-link{
+    color: #26648E;
+}
+
+#activities {
+    padding: 2rem;
+    height: 100vh;
+}
+
+#activities h1{
+    color:#3B7097;
+    padding-bottom: 1.5rem;
+}
+
+#activities h5{
+    color:#3B7097;
+}
+
