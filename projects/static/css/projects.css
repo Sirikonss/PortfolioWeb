@@ -14,3 +14,7 @@ body {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
+#proj-detail p{
+    color: #2e4583;
+}

@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from projects.models import Project, Comment
 from .forms import CommentForm
+from django.contrib import messages
 
 
 def home_detail(request):
@@ -33,6 +34,7 @@ def contact_detail(request):
             
             )
             comment.save()
+            messages.success(request, 'Submission successful, THANK YOU')
     context = {
         "form": form,
     }

@@ -28,5 +28,14 @@
     </form>
 </center>
 
+{% if messages %}
+<center>
+<div class="messages">
+    {% for message in messages %}
+    <span {% if message.tags %} class="badge badge-success {{ message.tags }} " {% endif %}> {{ message }} </span>
+    {% endfor %}
+</div>
+</center>
+{% endif %}
 
 {% endblock %}
